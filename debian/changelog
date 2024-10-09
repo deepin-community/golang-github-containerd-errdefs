@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-containerd-errdefs (0.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  * No change upload to aid testing migration
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 30 Jun 2024 08:47:11 -0400
+
+golang-github-containerd-errdefs (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1073281)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 15 Jun 2024 14:40:56 -0400
