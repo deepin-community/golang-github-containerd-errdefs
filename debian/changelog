@@ -1,5 +1,32 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-containerd-errdefs (0.3.0-3) unstable; urgency=medium
 
-  * Initial release
+  * Adjust Breaks to: golang-github-containerd-containerd-dev
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Fri, 01 Nov 2024 05:57:33 -0400
+
+golang-github-containerd-errdefs (0.3.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+  * Add Breaks: containerd (<< 1.7.23~ds1)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Thu, 31 Oct 2024 06:36:11 -0400
+
+golang-github-containerd-errdefs (0.3.0-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump standards version, no changes needed
+  * Depend on containerd/typeurl
+
+ -- Reinhard Tartler <siretart@tauware.de>  Mon, 28 Oct 2024 07:14:36 -0400
+
+golang-github-containerd-errdefs (0.1.0-2) unstable; urgency=medium
+
+  * No change upload to aid testing migration
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sun, 30 Jun 2024 08:47:11 -0400
+
+golang-github-containerd-errdefs (0.1.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1073281)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 15 Jun 2024 14:40:56 -0400
